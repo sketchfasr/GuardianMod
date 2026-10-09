@@ -62,6 +62,8 @@ Imposter amount assigns the next game the selected number of imposters next game
 A useful QoL tab to improve your overall Glitch Loby experience. It has 3 sub tabs:
 Codes: Contains all the glitch codes. The mod is directly hooked to the website, so all the codes in the tab are correct. It has a search option as well as a option to only see a selected region's glitch codes to look for the exact glitch code you like. The mod refreshes every 20s, however, you can also manually refresh by pressing the refresh button
 
+You can also quickly check if your lobby is glitched or not. If it is glitched, it will say so. Otherwise, it will say "Lobby not glitched"
+
 Creation: Has a button to automatically create a glitch lobby. It is divided into two phases: Phase 1 and Phase 2. In phase 1, the mod creates a normal lobby in the official region and leaves 1.5s later to arm the glitch lobby creation. In phase 2, The custom AUGL region is automatically selected and a glitched lobby is created. The sub tab also contains a Tutorial section to explain how to get the custom region in your game
 
 Credits(NOT the entire mod's credits): Contains the credits for the refrerence used in Glitch tab   
