@@ -1,4 +1,4 @@
-# # Guard tab 
+#  Guard tab 
 The guard tab is the main an original tab in this mod. It auto protects every alive player when turned on. Ignore ghosts toggle and ignore impostors toggle should be kept turned on, bu i still gave it as a choice to turn them off instead of hard coding them into the code if you need to turn them off for whatever reason. Guard has 3 modes:
 Safe mode: increases delay between each protect RPC being sent by 0.02s
 Balanced mode(Recommended): increases delay between each protect RPC being sent by 0.01s
