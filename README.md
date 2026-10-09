@@ -73,7 +73,7 @@ Imposter amount reference and small references here and there: Sicko menu
 
 Some protections and spawn/despawn map reference: Hydra menu
 
-Disable role intro idea: Alysium menu( idfk what its called exactly, my apologies)
+Disable role intro idea: Elysium menu
 
 Codes sub tab hooked to: AUGL website
 
