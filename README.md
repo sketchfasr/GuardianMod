@@ -1,16 +1,36 @@
-This prototype version of auto protect all is a proof of concept. What it does is, it spams the protect RPC on every player EXTREMELY fast. This removes the need of atleast one of the players being a PC player with a fast autoclicker. Not only that, but the final version of this mod could increase the average number of imposters in a lobby from 1 to 2, 3 or even more, thus way more overall XP for all the players in the lobby as compared to a traditional glitch lobby with/without a auto clicker
+# # Guard tab 
+The guard tab is the main an original tab in this mod. It auto protects every alive player when turned on. Ignore ghosts toggle and ignore impostors toggle should be kept turned on, bu i still gave it as a choice to turn them off instead of hard coding them into the code if you need to turn them off for whatever reason. Guard has 3 modes:
+Safe mode: increases delay between each protect RPC being sent by 0.02s
+Balanced mode(Recommended): increases delay between each protect RPC being sent by 0.01s
+Extreme mode: The fastest but most unsafe mode. no extra delay, the mod runs at maximum possible speeds. In my experience, bans are very rare even with this mode. However, i would still recommend using the balanced mode
+Refer to Chart sub tab to get detailed info about each of the modes
 
-This version would have been very close to the final version IF it wasn't for the damn rate limit. With only one other person in the lobby, this version works completely fine. However, once there are too many people, the mod starts sending ALOT of protect RPCs per second to spam protect all the players, and thus gets rate limited
+# # Drain tab
+Automates the process of draining. Simply input the number of desired cycles, and the mod will handle the rest. Click stop drain to force stop the drain before cycles finish. The tab offers a sophiscated players list to make sure all the selected players are present in the lobby before starting the next cycle. To prevent softlocking the drain tab, selected players who are not in the lobby/went offline will still be visible in the list( Example: KRUSH [UNAVAILABLE] )
+Auto return to lobby after each cycle does exactly what it says. Disable role intro disables the "Your role is ____" screen to get to make the drain cycles faster. Turning it off is not recommended, as it may break the drain process( i may or may not have forgotten to test drain without disable role intro). Send "Drained?" after cycles complete automates asking the players if they have drained or not. It has a small delay before sending to make sure all the players have rejoined the lobby after game ending
 
-Getting rate limited with such a mod is a huge problem. I tried to fix it by putting a filter to only protect crewmates and ignore ghosts & imposters. However, it wasn't enough. So I also added a players list to only protect the selected players. This works when only a few players are selected, but gets rate limited once too many players are selected. And slowing down the number of protections the mod gives each player too much is not an option either, as it would make the mod slower than simply clicking with your fingers
+# # Anti-Nuke tab
+This tab is espically made to stop people from destroying your glitched lobbies. Most of the features in Anti-Nuke are self explanatory, except one, which i will explain myself:
+You proablby already know of the vent kick exploit. Its the most widely used and reliable way to destroy lobbies, because there is no mod to prevent it... Until now
+Prevent vent kick exploit for all players works by immidiately removing the map upon starting the game. When the map is deleted, there is no way to use vent kick exploit as there is no VenitlationSystem spawned in, meaning every vent related exploit(kick players, teleport any player to vent, immortality etc) become useless
+To make sure players do not get lost in the void, a lobby instance is spawned in to keep all the players close together and make the shields process easier 
 
-My next and final attempt would be to put an adaptive speed changer. What it would do is, it would detect the number of players in the lobby and change the speed of the protection based on it. For example, if there is only one person other than you, the mod would protect that player ~50 times per second without having to worry about the rate limit. But if there are 2 players, the mod would slow down a little to compensate for the higher amount of RPCs being sent for both players. The advantage of such an option is that it would manage staying under the rate limit threshold automatically without the user having to do anything while still giving the maximum protections per second possible without getting rate limited
+# # Players tab
+I intentoially limited the number of features in this tab to make it more Glitch Lobby-specific
+The tab contains kick and ban options to kick any players from your lobby
+The assign role feature assigns the selected player the chosen role the next game
+Turn player to guardian angel immidiately turns the player into guardian angel regardless of their current role. Can be helpful for getting extra support from players with Auto Clickers
+Teleport to vent feature is present to make sure the player does not ruin shields by running around the whole map. clicking teleport to vent immidiately telerpots the player to the selected room's vent
 
-However, the down side being, after X number of players, the mod would have to slow down so much to avoid being rate limited that it will be better just to use your finger. To combat this, I'll test the mod at every number of players till I find the maximum number of players where the mod is good enough to be a better option than using your finger or possibly an autoclicker
+# # Lobby tab
+The lobby tab has many features, so i wont explain every one of them. I will explain the less self-explanatory ones:
+Allow all to chat mid game is a pretty unique feature to all even non modded alive players to chat with eachother mid game. Can be very useful to pass the time while the imposters spam kill them
+Imposter amount assigns the next game the selected number of imposters next game. you can choose from 0-15 imposters. Useing this with disable game ending is recommended
 
-This is easier said than done, because testing this mod requires many players and alot of patience on their end. I ran into a similar issue while making the role revealer mod, however, I didn't need someone else's help in that one because i could just join public lobbies for it, so i just kept trying again and again alone till i found the perfect value. But for this mod, I cannot just join random lobbies, so optimizing phase is extremely slow
-Because of these problems, I'm shifting my main focus from this mod to other mods, while I slowly and steadily work on this mod in the background. The reason I uploaded this half-baked version of the mod is because I just wanted to put it out there that such a mod could change how one plays in glitch lobbies by drastically increasing the efficiency of gaining XP for everyone in the lobby
+# # Glitch tab
+A useful QoL tab to improve your overall Glitch Loby experience. It has 3 sub tabs:
+Codes: Contains all the glitch codes. The mod is directly hooked to te website, so all the codes in the mod are correct. It has a search option as well as a option to only see a selected region's glitch codes to look for the exact glitch code you like. The mod refreshes every 20s, however, you can also manually refresh by pressing the refresh button
+Creation: Has a button to automatically create a glitch lobby. It is divided into two phases: Phase 1 and Phase 2. In phase 1, the mod creates a normal lobby in the offical region and leaves 1.5s later to arm the glitch lobby creation. In phase 2, The custom AUGL region is automatcially selected and a glitched lobby is created. The sub tab also contains a Tutorial section to explain how to get the custom server
+Credits(NOT the entire mod's credits): Contains the credits for the help used in Glitch tab   
 
-I have already tested this prototype version with a friend of mine, and she LOVES it, so its pretty clear everyone else in the glitch lobby community will love it too
 
-TL;DR: This is the prototype version of auto protect mod. Rate limit is a huge issue, and optimizing this mod to tackle the problem of rate limit is taking long. So to the 1.2 people who will ever even see this, thank you, and please use this prototype version while I work on the release version( keep in mind, using this mod with too many players will get you kicked by the anticheat)
