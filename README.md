@@ -40,7 +40,7 @@ To make sure players do not get lost in the void, a lobby instance is spawned. T
 
 
 # Players tab
-I intentionally limited the number of features in this tab to make it more Glitch Lobby-specific
+I intentionally limited the number of features in this tab to make it Glitch Lobby-specific
 
 The tab contains kick and ban options to kick/ban any annoying player from your lobby
 
@@ -56,7 +56,7 @@ The lobby tab has many features, so i wont explain every one of them. I will exp
 
 Allow all to chat mid game is a pretty unique feature to allow even non-modded alive players to chat with eachother mid game. Can be very useful to pass the time while the imposters spam kill them
 
-Imposter amount assigns the next game the selected number of imposters next game. You can choose from 0-15 imposters. Using this with disable game ending is recommended
+Imposter amount assigns the selected number of imposters next game. You can choose from 0-15 imposters. Using this with disable game ending is recommended
 
 # Glitch tab
 A useful QoL tab to improve your overall Glitch Loby experience. It has 3 sub tabs:
@@ -64,12 +64,12 @@ Codes: Contains all the glitch codes. The mod is directly hooked to the website,
 
 You can also quickly check if your lobby is glitched or not. If it is glitched, it will say so. Otherwise, it will say "Lobby not glitched"
 
-Creation: Has a button to automatically create a glitch lobby. It is divided into two phases: Phase 1 and Phase 2. In phase 1, the mod creates a normal lobby in the official region and leaves 1.5s later to arm the glitch lobby creation. In phase 2, The custom AUGL region is automatically selected and a glitched lobby is created. The sub tab also contains a Tutorial section to explain how to get the custom region in your game
+Creation: Has a button to automatically create a glitch lobby. It is divided into two phases: Phase 1 and Phase 2. In phase 1, the mod creates a normal lobby in the official region and leaves 1.5s later to arm the glitch lobby creation. In phase 2, The custom AUGL region is automatically selected and a glitched lobby is created(Phase 1 will be skipped if the mod detects that you have already done the process of arming by creating or joining a lobby manually). The sub tab also contains a Tutorial section to explain how to get the custom region in your game
 
 Credits(NOT the entire mod's credits): Contains the credits for the refrerence used in Glitch tab   
 
 
-Credits time( I may have forgotten some exact credits, so keep that in mind):
+# Credits
 
 Imposter amount reference and small references here and there: Sicko menu
 
