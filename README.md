@@ -1,3 +1,6 @@
+Something big is coming soon👀
+
+
 This is my most time consuming project yet, but i like how it turned out. I have tried my best to make it THE mod people use while playing shields. Playing shields without mods is extremely tough. No way to assign imposters next round, no way to moderate your lobby, and most importantly, no way to protect your lobby from bad exploiters. This mod fixes all of those problems. Try it and let me if you like it or not:D
 
 (README is made by me this time because the stupid clanker kept adding random bs to the README)
