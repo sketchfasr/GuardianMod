@@ -138,10 +138,15 @@ Note: Allow all to chat mid game will not work with this feature turned on
 ## Players
 
  Kick and ban.
+ 
  Set player role for the next game.
+ 
  Turn a player into Guardian Angel.
+ 
  Teleport a player to any vent
+ 
  Select which player's ghost chat is shown.
+ 
  Player specific mid game chat
 
 ## Lobby
@@ -156,9 +161,9 @@ Note: Allow all to chat mid game will not work with this feature turned on
 
 The Glitch tab reads AUGL's codes and refreshes every 20 secs(if i remember correctly). It contains 3 sub tabs:
 
-- **Codes** (Self explinatory)
-- **Creation** automates GL creation. It has 2 phases: Phase 1 arms the process by creating a normal official region lobby and leaving it 1.5secs later. Phase 2 selects the AUGL codes region and creates a glitch lobby.(Phase 1 is skipped when the session has already been armed by creating or joining a lobby)
-- **Credits** Contains credits for AUGL
+ **Codes** (Self explinatory)
+ **Creation** automates GL creation. It has 2 phases: Phase 1 arms the process by creating a normal official region lobby and leaving it 1.5secs later. Phase 2 selects the AUGL codes region and creates a glitch lobby.(Phase 1 is skipped when the session has already been armed by creating or joining a lobby)
+ **Credits** Contains credits for AUGL
 
 ## Misc
 
@@ -182,6 +187,9 @@ Misc contains client side and convenience features that do not belong to a speci
 ## Credits
 
  Some general QoL features taken and inspired from: Sicko menu
+ 
  Map and lobby spawn/despawn feature and some anti nuke protections taken from: Hydra menu
+ 
  Skip role intro taken from: Elysium menu
+ 
  Some anti stale methods for AFK grind refrenced from: Sky menu
