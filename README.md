@@ -129,7 +129,7 @@ This tab is espically made to stop people from destroying your glitched lobbies.
 
 You probably already know of the vent kick exploit. Its the most widely used and reliable way to destroy lobbies, because there is no mod to prevent it directly. Guardian mod is the same, it does not have some sort of method to protect other players fromthis exploit, but what this mod does have is the ability to remove the root of the exploit: VentlationSystem.
 
-Prevent vent kick exploit for all players works by immidiately removing the map upon starting the game. When the map is deleted, there is no way to use vent kick exploit as there is no VenitlationSystem spawned in, meaning every vent related exploit(kick players, teleport any player to vent, immortality etc) becomes useless.
+**Prevent vent kick exploit for all players** works by immidiately removing the map upon starting the game. When the map is deleted, there is no way to use vent kick exploit as there is no VentilationSystem spawned in, meaning every vent related exploit(kick players, teleport any player to vent, immortality etc) becomes useless.
 
 To make sure players do not get lost in the void, a lobby instance is spawned. This also keeps all the players close together and makes the shields process easier.
 
