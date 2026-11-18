@@ -112,10 +112,15 @@ AFK Grind has two methods:
 AFK Grind has several recovery methods running in the background so one bad lobby or one bad game does not mess up the whole process:
 
 **Lobby creation recovery** retries the selected lobby creation strategy when the first attempt gets stuck or fails. If the strategy cannot finish within its deadline,AFK grind leaves the room, returns to the main menu, and starts the lobby creation phase again.
+
 **Test-round recovery** watches the test round separately from the normal grind. If the test round never starts, never returns, or cannot prove that the selected method works, the process starts again from Phase 1.
+
 **Disconnect/kick recovery** watches for an unexpected disconnect, kick, rate limit kick, or any other unintentional kicks. When triggered, it creates a new lobby and restarts the entire AFK Grind process from Phase 1
+
 **Crash recovery** uses the crash watchdog to detect when the game stops responding or closes unexpectedly. A fresh game instance is started and AFK Grind resumes from Phase 1 after the new game has loaded.
+
 **Stale process recovery** handles cases where the game is still open but the AFK process is no longer making progress/is stuck on a unfixable problem. It leaves the lobby, creates a fresh lobby, and retries.
+
 **Method recovery** can switch between the Client sided GL and AUGL lobby methods when automatic method switching is enabled. If neither method can make a usable lobby, AFK Grind goes on standby on AUGL method and waits for a new code to appear in the glitch tab before starting the process
 
 ## Anti-Nuke
