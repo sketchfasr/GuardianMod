@@ -152,7 +152,9 @@ Note: Allow all to chat mid game will not work with this feature turned on
 ## Lobby
 
  Allowing all players to chat mid-game or ending a meeting immediately after calling it
+ 
  Custom impostor count for the next game.
+ 
  Auto kick players above a configured lobby player count limit. The player is informed with a chat only the can see, then is kicked after 2 secs.
  
 (Self explinatory features in this tab have been skipped)
