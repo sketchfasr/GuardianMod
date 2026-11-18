@@ -4,6 +4,7 @@
 The original protection system now has two protection methods:
 
  **Classic** repeatedly sends protection to every selected player. Its **Normal** mode is the most direct option. Classic **Smart** keeps the repeated protection behavior, but adapts the interval to the number of selected players currently needing protection instead of always using the total selected player count to allow maximum protect speeds
+ 
  **Smarter** only sends protection to players whose live guardian shield is missing. **Normal** uses the selected speed mode, while **Smartest** also adapts the interval to the number of players currently needing protection( fastest 
 
 The speed tables are independent for Safe, Balanced, and Extreme. The interval increases as more players need protection, reducing the chance that you go past the rate limit ceiling
@@ -74,14 +75,6 @@ The values below are the delay between protection cycles. A lower delay means fa
 Extreme is the fastest option and has minimum delays. Balanced is recommended for normal use, while Safe gives the largest delay and the lowest rate limit risk( 0% risk if youre not doing any other RPC related action).
 
 Note: Smart mode works best when the user is the one spam killing the protected players, because your client must observe the shield state changing before it can send another protection. But when another player is doing the spam killing, smart mode does not receive the protection needing player's current shield status in time and hence, the player gets killed. This happens due to network latency
-
-Summary:
-
-- Separate Ignore ghosts and Ignore impostors controls.
-- Automatic recalculation when the selected player count or the number of players needing protection changes.
-- A custom interval override(Not recommended to touch, but still present incase someone wants to test around with rate limits).
-- Classic/Smarter selection and independent Normal/Smart/Smartest behavior.
-- A selectable protection sprite color
 
 ## Auto Run
 
