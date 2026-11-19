@@ -149,11 +149,11 @@ Note: Allow all to chat mid game will not work with this feature turned on
  
  Player specific mid game chat
 
+ Blacklist
+
 ## Lobby
 
- Custom impostor count for the next game.
- 
- Auto kick players above a configured lobby player count limit. The player is informed with a chat only the can see, then is kicked after 2 secs.
+ Auto kick players above a configured lobby player count limit. The player is informed with a chat only the can see, then is kicked after 2 secs. 
  
 (Self explinatory features in this tab have been skipped)
 
@@ -183,6 +183,24 @@ Misc contains client side and convenience features that do not belong to a speci
 
 
 (Self explinatory features in this tab have been skipped)
+
+
+
+##Tips/Rules:
+
+Use the maximum 15 player count lobby capacity in order to get the highest rate limit ceiling. Useful to minimise the risk of rate limits( If you dont want 15 players joining your lobby, use the Auto kick feature in Lobby tab)
+
+Dont trust AFK grind by leaving it running for multiple days without checking on it even once; its still a couple of lines of code that follows a pre determined plan at the end of the day, it bugging out is still very much possible even after all the anti stale protections.
+
+Dont change AFK Grind settings while it is runnning, only change its settings after stopping it.
+
+Manually doing any RPC related action while auto protect or AFK grind is running is not recommended, especially on extreme mode as the mod is already touching the rate limit ceiling.
+
+This is a host ONLY mod, dont expect to be able to use auto protect in non host lobbies as it will is not possible and will lead to you getting kicked.
+
+Removing the host only requirement from the code and using this mod to disturb lobbies is probibited.
+
+
 
 ## Credits
 
