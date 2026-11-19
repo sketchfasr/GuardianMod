@@ -186,7 +186,7 @@ Misc contains client side and convenience features that do not belong to a speci
 
 
 
-##Tips/Rules:
+## Tips/Rules:
 
 Use the maximum 15 player count lobby capacity in order to get the highest rate limit ceiling. Useful to minimise the risk of rate limits( If you dont want 15 players joining your lobby, use the Auto kick feature in Lobby tab)
 
