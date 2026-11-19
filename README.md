@@ -196,6 +196,8 @@ Dont change AFK Grind settings while it is runnning, only change its settings af
 
 Manually doing any RPC related action while auto protect or AFK grind is running is not recommended, especially on extreme mode as the mod is already touching the rate limit ceiling.
 
+Due to the new patch that arrived a few weeks ago, the speed of draining has decreased DRASTICALLY, especially for AFK grind. I cannot do anything about this as the minimum 30 seconds timer is server sided. So if you end the game before 30 seconds and do not get any XP, here's your answer.
+
 This is a host ONLY mod, dont expect to be able to use auto protect in non host lobbies as it will is not possible and will lead to you getting kicked.
 
 Removing the host only requirement from the code and using this mod to disturb lobbies is probibited.
